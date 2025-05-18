@@ -55,7 +55,7 @@ body {
     margin-bottom: 15px;
 }
 
-/* Faixa 3: Serviços */
+
 .servicos {
     padding: 40px 20px;
     background-color: #f9f9f9;
@@ -81,7 +81,7 @@ body {
     padding: 20px;
     border-radius: 5px;
     text-align: center;
-    flex: 1 0 300px; /* Garante largura mínima e permite crescimento */
+    flex: 1 0 300px; 
     box-sizing: border-box;
 }
 
@@ -91,7 +91,7 @@ body {
     color: #00bcd4;
 }
 
-/* Faixa 4: Vantagens */
+
 .vantagens {
     padding: 40px 20px;
     background-color: #fff;
@@ -120,7 +120,7 @@ body {
     margin-bottom: 10px;
 }
 
-/* Faixa 5: Contato */
+
 .contato {
     padding: 60px 20px;
     background-color: #f9f9f9;
@@ -171,7 +171,7 @@ body {
     margin-top: 20px;
 }
 
-/* Faixa 6: Informações Essenciais */
+
 .informacoes-essenciais {
     padding: 40px 20px;
     background-color: #fff;
@@ -202,7 +202,7 @@ body {
     background-color: #008ba7;
 }
 
-/* Rodapé */
+
 .rodape {
     background-color: #333;
     text-align: center;
@@ -216,7 +216,7 @@ text-decoration: none;
 
 }
 
-/* Responsividade */
+
 @media (max-width: 768px) {
     .servicos-lista {
         flex-direction: column;
