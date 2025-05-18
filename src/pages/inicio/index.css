@@ -1,0 +1,245 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.apresentacao {
+    background-color: #e0f7fa;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.texto h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.texto p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #00bcd4;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #008ba7;
+}
+
+
+.sobre-nos {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.sobre-nos h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+/* Faixa 3: Serviços */
+.servicos {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.servicos h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.servicos-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.servico-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    flex: 1 0 300px; /* Garante largura mínima e permite crescimento */
+    box-sizing: border-box;
+}
+
+.servico-item h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #00bcd4;
+}
+
+/* Faixa 4: Vantagens */
+.vantagens {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.vantagens h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.vantagens-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.vantagem-item {
+    background-color: #e0f7fa;
+    color: #008ba7;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+/* Faixa 5: Contato */
+.contato {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.contato h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.formulario {
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.formulario .button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Faixa 6: Informações Essenciais */
+.informacoes-essenciais {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.informacoes-essenciais h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.redes-sociais {
+    margin-top: 20px;
+}
+
+.redes-sociais a {
+    display: inline-block;
+    background-color: #00bcd4;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.redes-sociais a:hover {
+    background-color: #008ba7;
+}
+
+/* Rodapé */
+.rodape {
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+}
+
+.rodape a {
+color: #fff;
+text-decoration: none;
+
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .servicos-lista {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .servico-item {
+        flex-basis: auto;
+        width: 90%;
+        margin-bottom: 15px;
+    }
+
+    .vantagens-lista {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .vantagem-item {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    .formulario {
+        width: 90%;
+    }
+}
